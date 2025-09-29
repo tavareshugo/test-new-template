@@ -13,7 +13,16 @@ project:
     - materials/*
     - "!materials/*/no_render"
 
-format: crit-format-html
+format:
+  html:
+    theme: [default, genetics-theme/theme.scss]
+    toc: true
+    number-sections: true
+    number-depth: 3
+    code-link: true
+    code-copy: true
+    lightbox: true
+
 filters:
   - callout-exercise
 
@@ -32,20 +41,20 @@ metadata-files:
   - "materials/_chapters.yml"
 
 book:
-  favicon: "_extensions/cambiotraining/crit-format/img/university-of-cambridge-favicon.ico"
+  favicon: "genetics-format/university-of-cambridge-favicon.ico"
   page-footer: 
     center: |
       Licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 
       ![](https://creativecommons.org/images/deed/cc_icon_black_x2.png){width=25px} 
-      Cambridge Research Informatics Training
+      Test Training
   search:
     location: sidebar
   bread-crumbs: false
   page-navigation: true
   navbar:
     pinned: true
-    title: "Course Development Guidelines"
-    logo: "_extensions/cambiotraining/crit-format/img/university_crest_reversed.png"
+    title: "Test Test Training"
+    logo: "genetics-format/university_crest_reversed.png"
     right:
       - text: "{{< iconify fa6-brands github size=lg title='CRIT GitHub' >}}"
         href: https://github.com/cambiotraining/

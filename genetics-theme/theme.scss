@@ -4,26 +4,26 @@
 
 /*-- scss:defaults --*/
 /* Quarto theme variables for navbar, callouts, and palette */
-$navbar-bg: #106470;
+$navbar-bg: #1a237e; // Deep blue
 $navbar-fg: white;
 
-$body-color: black;
-$link-color: #003a41;
+$body-color: #212121; // Dark grey for contrast
+$link-color: #1565c0; // Blue
 
 /* Callout colours */
-$callout-color-note: #C6C5B9;
-$callout-color-tip: #28828A;
-$callout-color-caution: #D62828;
-$callout-color-warning: #D62828;
-$callout-color-important: #28828A;
+$callout-color-note: #90caf9; // Light blue
+$callout-color-tip: #1976d2; // Medium blue
+$callout-color-caution: #0d47a1; // Dark blue
+$callout-color-warning: #0d47a1; // Dark blue
+$callout-color-important: #1976d2; // Medium blue
 
 /* Custom palette for convenience / reuse */
-$primary: #106470;
-$primary-dark: #0c5963;
-$primary-darker: #003a41;
-$accent: #28828A;
+$primary: #1a237e; // Deep blue
+$primary-dark: #1565c0; // Blue
+$primary-darker: #0d47a1; // Dark blue
+$accent: #1976d2; // Medium blue
 $white: #ffffff;
-$muted: #f5f5f5;
+$muted: #e3f2fd; // Very light blue
 
 /* Accessibility / UI */
 $btn-focus-box-shadow: 0 0 0 0.15rem rgba(16,100,112,0.12);
